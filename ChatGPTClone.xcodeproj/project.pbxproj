@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860F34472D89CAB400CF4DC6 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34292D89CAB400CF4DC6 /* Nunito-ExtraBoldItalic.ttf */; };
+		860F34482D89CAB400CF4DC6 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34322D89CAB400CF4DC6 /* Nunito-SemiBold.ttf */; };
+		860F34492D89CAB400CF4DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860F343F2D89CAB400CF4DC6 /* Assets.xcassets */; };
+		860F344A2D89CAB400CF4DC6 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34242D89CAB400CF4DC6 /* Nunito-Black.ttf */; };
+		860F344B2D89CAB400CF4DC6 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34312D89CAB400CF4DC6 /* Nunito-Regular.ttf */; };
+		860F344C2D89CAB400CF4DC6 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342F2D89CAB400CF4DC6 /* Nunito-Medium.ttf */; };
+		860F344D2D89CAB400CF4DC6 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342B2D89CAB400CF4DC6 /* Nunito-ExtraLightItalic.ttf */; };
+		860F344E2D89CAB400CF4DC6 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342E2D89CAB400CF4DC6 /* Nunito-LightItalic.ttf */; };
+		860F344F2D89CAB400CF4DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F34442D89CAB400CF4DC6 /* Main.storyboard */; };
+		860F34502D89CAB400CF4DC6 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34252D89CAB400CF4DC6 /* Nunito-BlackItalic.ttf */; };
+		860F34512D89CAB400CF4DC6 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34272D89CAB400CF4DC6 /* Nunito-BoldItalic.ttf */; };
+		860F34522D89CAB400CF4DC6 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342C2D89CAB400CF4DC6 /* Nunito-Italic.ttf */; };
+		860F34532D89CAB400CF4DC6 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34332D89CAB400CF4DC6 /* Nunito-SemiBoldItalic.ttf */; };
+		860F34542D89CAB400CF4DC6 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34282D89CAB400CF4DC6 /* Nunito-ExtraBold.ttf */; };
+		860F34552D89CAB400CF4DC6 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342D2D89CAB400CF4DC6 /* Nunito-Light.ttf */; };
+		860F34572D89CAB400CF4DC6 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34262D89CAB400CF4DC6 /* Nunito-Bold.ttf */; };
+		860F34582D89CAB400CF4DC6 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F34302D89CAB400CF4DC6 /* Nunito-MediumItalic.ttf */; };
+		860F34592D89CAB400CF4DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F34422D89CAB400CF4DC6 /* LaunchScreen.storyboard */; };
+		860F345A2D89CAB400CF4DC6 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 860F342A2D89CAB400CF4DC6 /* Nunito-ExtraLight.ttf */; };
+		860F345B2D89CAB400CF4DC6 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F343A2D89CAB400CF4DC6 /* Onboarding.swift */; };
+		860F345C2D89CAB400CF4DC6 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34212D89CAB400CF4DC6 /* ChatCell.swift */; };
+		860F345D2D89CAB400CF4DC6 /* OnBoardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F343B2D89CAB400CF4DC6 /* OnBoardingCell.swift */; };
+		860F345E2D89CAB400CF4DC6 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F343C2D89CAB400CF4DC6 /* OnboardingViewController.swift */; };
+		860F345F2D89CAB400CF4DC6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34222D89CAB400CF4DC6 /* ChatViewController.swift */; };
+		860F34602D89CAB400CF4DC6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34372D89CAB400CF4DC6 /* NetworkService.swift */; };
+		860F34612D89CAB400CF4DC6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34362D89CAB400CF4DC6 /* Message.swift */; };
+		860F34622D89CAB400CF4DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F343E2D89CAB400CF4DC6 /* AppDelegate.swift */; };
+		860F34632D89CAB400CF4DC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34452D89CAB400CF4DC6 /* SceneDelegate.swift */; };
+		860F34662D89CEF000CF4DC6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F34652D89CEF000CF4DC6 /* Helpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		860F34212D89CAB400CF4DC6 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		860F34222D89CAB400CF4DC6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		860F34242D89CAB400CF4DC6 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		860F34252D89CAB400CF4DC6 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		860F34262D89CAB400CF4DC6 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		860F34272D89CAB400CF4DC6 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		860F34282D89CAB400CF4DC6 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		860F34292D89CAB400CF4DC6 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		860F342A2D89CAB400CF4DC6 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		860F342B2D89CAB400CF4DC6 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		860F342C2D89CAB400CF4DC6 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		860F342D2D89CAB400CF4DC6 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		860F342E2D89CAB400CF4DC6 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		860F342F2D89CAB400CF4DC6 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		860F34302D89CAB400CF4DC6 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		860F34312D89CAB400CF4DC6 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		860F34322D89CAB400CF4DC6 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		860F34332D89CAB400CF4DC6 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		860F34362D89CAB400CF4DC6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		860F34372D89CAB400CF4DC6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		860F343A2D89CAB400CF4DC6 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		860F343B2D89CAB400CF4DC6 /* OnBoardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCell.swift; sourceTree = "<group>"; };
+		860F343C2D89CAB400CF4DC6 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		860F343E2D89CAB400CF4DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		860F343F2D89CAB400CF4DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860F34402D89CAB400CF4DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860F34412D89CAB400CF4DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860F34432D89CAB400CF4DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		860F34452D89CAB400CF4DC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		860F34652D89CEF000CF4DC6 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		86DE2B6A2D79E29A004B5C19 /* ChatGPTClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		86DE2B6C2D79E29A004B5C19 /* ChatGPTClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPTClone;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86DE2B672D79E29A004B5C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860F34232D89CAB400CF4DC6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				860F34212D89CAB400CF4DC6 /* ChatCell.swift */,
+				860F34222D89CAB400CF4DC6 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		860F34342D89CAB400CF4DC6 /* Fonts 2 */ = {
+			isa = PBXGroup;
+			children = (
+				860F34242D89CAB400CF4DC6 /* Nunito-Black.ttf */,
+				860F34252D89CAB400CF4DC6 /* Nunito-BlackItalic.ttf */,
+				860F34262D89CAB400CF4DC6 /* Nunito-Bold.ttf */,
+				860F34272D89CAB400CF4DC6 /* Nunito-BoldItalic.ttf */,
+				860F34282D89CAB400CF4DC6 /* Nunito-ExtraBold.ttf */,
+				860F34292D89CAB400CF4DC6 /* Nunito-ExtraBoldItalic.ttf */,
+				860F342A2D89CAB400CF4DC6 /* Nunito-ExtraLight.ttf */,
+				860F342B2D89CAB400CF4DC6 /* Nunito-ExtraLightItalic.ttf */,
+				860F342C2D89CAB400CF4DC6 /* Nunito-Italic.ttf */,
+				860F342D2D89CAB400CF4DC6 /* Nunito-Light.ttf */,
+				860F342E2D89CAB400CF4DC6 /* Nunito-LightItalic.ttf */,
+				860F342F2D89CAB400CF4DC6 /* Nunito-Medium.ttf */,
+				860F34302D89CAB400CF4DC6 /* Nunito-MediumItalic.ttf */,
+				860F34312D89CAB400CF4DC6 /* Nunito-Regular.ttf */,
+				860F34322D89CAB400CF4DC6 /* Nunito-SemiBold.ttf */,
+				860F34332D89CAB400CF4DC6 /* Nunito-SemiBoldItalic.ttf */,
+			);
+			path = "Fonts 2";
+			sourceTree = "<group>";
+		};
+		860F34382D89CAB400CF4DC6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				860F34362D89CAB400CF4DC6 /* Message.swift */,
+				860F34372D89CAB400CF4DC6 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		860F343D2D89CAB400CF4DC6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				860F343A2D89CAB400CF4DC6 /* Onboarding.swift */,
+				860F343B2D89CAB400CF4DC6 /* OnBoardingCell.swift */,
+				860F343C2D89CAB400CF4DC6 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		860F34462D89CAB400CF4DC6 /* ChatGPTClone */ = {
+			isa = PBXGroup;
+			children = (
+				860F34232D89CAB400CF4DC6 /* Chat */,
+				860F34382D89CAB400CF4DC6 /* Network */,
+				860F343D2D89CAB400CF4DC6 /* Onboarding */,
+				860F343E2D89CAB400CF4DC6 /* AppDelegate.swift */,
+				860F343F2D89CAB400CF4DC6 /* Assets.xcassets */,
+				860F34402D89CAB400CF4DC6 /* Info.plist */,
+				860F34422D89CAB400CF4DC6 /* LaunchScreen.storyboard */,
+				860F34442D89CAB400CF4DC6 /* Main.storyboard */,
+				860F34452D89CAB400CF4DC6 /* SceneDelegate.swift */,
+				860F34642D89CEC200CF4DC6 /* Constants */,
+				860F34342D89CAB400CF4DC6 /* Fonts 2 */,
+			);
+			path = ChatGPTClone;
+			sourceTree = "<group>";
+		};
+		860F34642D89CEC200CF4DC6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				860F34652D89CEF000CF4DC6 /* Helpers.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8693578A2D89CA500023FA00 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				86DE2B6C2D79E29A004B5C19 /* ChatGPTClone */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		86DE2B612D79E29A004B5C19 = {
+			isa = PBXGroup;
+			children = (
+				860F34462D89CAB400CF4DC6 /* ChatGPTClone */,
+				86DE2B6B2D79E29A004B5C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86DE2B6B2D79E29A004B5C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86DE2B6A2D79E29A004B5C19 /* ChatGPTClone.app */,
+				8693578A2D89CA500023FA00 /* New Group */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86DE2B692D79E29A004B5C19 /* ChatGPTClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DE2B7D2D79E29B004B5C19 /* Build configuration list for PBXNativeTarget "ChatGPTClone" */;
+			buildPhases = (
+				86DE2B662D79E29A004B5C19 /* Sources */,
+				86DE2B672D79E29A004B5C19 /* Frameworks */,
+				86DE2B682D79E29A004B5C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				86DE2B6C2D79E29A004B5C19 /* ChatGPTClone */,
+			);
+			name = ChatGPTClone;
+			packageProductDependencies = (
+			);
+			productName = ChatGPTClone;
+			productReference = 86DE2B6A2D79E29A004B5C19 /* ChatGPTClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86DE2B622D79E29A004B5C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					86DE2B692D79E29A004B5C19 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 86DE2B652D79E29A004B5C19 /* Build configuration list for PBXProject "ChatGPTClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86DE2B612D79E29A004B5C19;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86DE2B6B2D79E29A004B5C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86DE2B692D79E29A004B5C19 /* ChatGPTClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86DE2B682D79E29A004B5C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F34472D89CAB400CF4DC6 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				860F34482D89CAB400CF4DC6 /* Nunito-SemiBold.ttf in Resources */,
+				860F34492D89CAB400CF4DC6 /* Assets.xcassets in Resources */,
+				860F344A2D89CAB400CF4DC6 /* Nunito-Black.ttf in Resources */,
+				860F344B2D89CAB400CF4DC6 /* Nunito-Regular.ttf in Resources */,
+				860F344C2D89CAB400CF4DC6 /* Nunito-Medium.ttf in Resources */,
+				860F344D2D89CAB400CF4DC6 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				860F344E2D89CAB400CF4DC6 /* Nunito-LightItalic.ttf in Resources */,
+				860F344F2D89CAB400CF4DC6 /* Main.storyboard in Resources */,
+				860F34502D89CAB400CF4DC6 /* Nunito-BlackItalic.ttf in Resources */,
+				860F34512D89CAB400CF4DC6 /* Nunito-BoldItalic.ttf in Resources */,
+				860F34522D89CAB400CF4DC6 /* Nunito-Italic.ttf in Resources */,
+				860F34532D89CAB400CF4DC6 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				860F34542D89CAB400CF4DC6 /* Nunito-ExtraBold.ttf in Resources */,
+				860F34552D89CAB400CF4DC6 /* Nunito-Light.ttf in Resources */,
+				860F34572D89CAB400CF4DC6 /* Nunito-Bold.ttf in Resources */,
+				860F34582D89CAB400CF4DC6 /* Nunito-MediumItalic.ttf in Resources */,
+				860F34592D89CAB400CF4DC6 /* LaunchScreen.storyboard in Resources */,
+				860F345A2D89CAB400CF4DC6 /* Nunito-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86DE2B662D79E29A004B5C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860F345B2D89CAB400CF4DC6 /* Onboarding.swift in Sources */,
+				860F345C2D89CAB400CF4DC6 /* ChatCell.swift in Sources */,
+				860F345D2D89CAB400CF4DC6 /* OnBoardingCell.swift in Sources */,
+				860F34662D89CEF000CF4DC6 /* Helpers.swift in Sources */,
+				860F345E2D89CAB400CF4DC6 /* OnboardingViewController.swift in Sources */,
+				860F345F2D89CAB400CF4DC6 /* ChatViewController.swift in Sources */,
+				860F34602D89CAB400CF4DC6 /* NetworkService.swift in Sources */,
+				860F34612D89CAB400CF4DC6 /* Message.swift in Sources */,
+				860F34622D89CAB400CF4DC6 /* AppDelegate.swift in Sources */,
+				860F34632D89CAB400CF4DC6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		860F34422D89CAB400CF4DC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F34412D89CAB400CF4DC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		860F34442D89CAB400CF4DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860F34432D89CAB400CF4DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86DE2B7E2D79E29B004B5C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67LYQ396QA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sefacandemir.ChatGPTClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86DE2B7F2D79E29B004B5C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67LYQ396QA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sefacandemir.ChatGPTClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86DE2B802D79E29B004B5C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86DE2B812D79E29B004B5C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86DE2B652D79E29A004B5C19 /* Build configuration list for PBXProject "ChatGPTClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DE2B802D79E29B004B5C19 /* Debug */,
+				86DE2B812D79E29B004B5C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DE2B7D2D79E29B004B5C19 /* Build configuration list for PBXNativeTarget "ChatGPTClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DE2B7E2D79E29B004B5C19 /* Debug */,
+				86DE2B7F2D79E29B004B5C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86DE2B622D79E29A004B5C19 /* Project object */;
+}
