@@ -4,7 +4,8 @@ class NetworkService {
     static let shared = NetworkService()
 
     private let model = "gpt-3.5-turbo"
-    private let apiKey = ProcessInfo.processInfo.environment["OPENAI_API_KEY"] ?? ""
+
+    private let apiKey = "your api key"
     private let baseURL = "https://api.openai.com/v1/chat/completions"
 
     func getChatCompletion(messages: [Message],completion: @escaping (Result<String, Error>) -> Void) {

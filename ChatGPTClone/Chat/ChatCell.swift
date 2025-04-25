@@ -35,7 +35,6 @@ class ChatCell: UITableViewCell {
         
         let text = message.content
         
-        
         if !text.isEmpty {
             let widthWalue = text.estimateFrameForText(text).width
             
