@@ -30,7 +30,7 @@ class ChatCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(message: Message){//public olmasın
+    func configure(message: NewMessage){//public olmasın
         messageLabel.text = message.content
         
         let text = message.content
